@@ -2,3 +2,12 @@
     language: node_js
     node_js:
     - stable
+    branches:
+      only: development
+    notifications:
+      email:
+        recipients:
+        - 530606349@qq.com      # change to your own address
+        - 20082474@mail.wit.ie    # uae other (optional)
+        on_success: never        # default: change
+        on_failure: always       # default: always
